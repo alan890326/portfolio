@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Border Image</title>
+		<style type="text/css">
+			p { padding: 25px;
+                font-size: 2.55em;
+                font-weight: bold;
+				width: 207px;
+				height: 84px;
+				border: 33px solid #ffffff;}
+			p.one {
+				-moz-border-image: url("./border.svg") 33 33 33 33 stretch;
+				-webkit-border-image: url("./border.svg") 33 33 33 33 stretch;
+				border-image: url("./border.svg") 33 33 33 33 stretch;}
+			p.two {
+				-moz-border-image: url("./border.svg") 33 33 33 33 round;
+				-webkit-border-image: url("./border.svg") 33 33 33 33 round;
+				border-image: url("./border.svg") 33 33 33 33 round;}
+		</style>
+	</head>
+	<body>
+		<p class="one">探索知識的深淵</p>
+		<p class="two">將能擁抱天空的寬廣</p>
+	</body>
+</html>
