@@ -1,0 +1,25 @@
+body
+{
+	text-align: center;
+}
+div {
+   width: 900px;
+   margin: auto;
+	border: 1px solid red;
+	text-align: center;
+	padding: 30px;
+}
+p {
+   border: 1px solid red;
+   border-width: 1px;
+   text-align: center;
+   font-size: 18pt;
+   width: 500px;
+   height: 300px;
+   display: flex;
+   overflow: auto;
+   margin: 0px auto;
+   padding: 12px;
+   align-items: center;
+}
+
